@@ -4,7 +4,8 @@
 
 - 에디터 : **[Sublime Text 3](https://www.sublimetext.com/3)**
 	* [Package Control](https://packagecontrol.io/)
-	* Emmet, SideBarEnhancements, Syntax Highlighting for Sass, Color Picker, IMESupport, ConvertToUTF8
+	* [Emmet](http://docs.emmet.io), [Emmet 스니펫/축약코드](http://docs.emmet.io/cheat-sheet/)
+	* SideBarEnhancements, Syntax Highlighting for Sass, Color Picker, IMESupport, ConvertToUTF8
 
 - 버전관리 도구 : **[Git / GitHub / Git Bash](https://git-scm.com/)**
 	* [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
@@ -34,4 +35,25 @@
 ```sh
 $ gem source --add https://s3.amazonaws.com/production.s3.rubygems.org/
 $ gem source --remove https://rubygems.org/
+```
+
+#### Git Bash 명령어
+
+```sh
+	- cd directory-name : 디렉토리 이동
+	- cd ~ : Git Bash를 처음 실행했을 때의 위치로
+	- cd ..(/..) 상위 디렉터리로 이동
+	- mkdir directories-name : 생성할 디렉토리 이름 나열
+	- touch directories-name/files-name : 생성할 파일 이름 나열
+	- ls : 디렉터리 안 파일 목록 출력
+	- ls -l : 파일목록과 상세정보 출력
+	- mv directory-name/file-name directory-name/file-name : 파일 위치 이동 또는 이름 변경
+	- pwd : 현재 디렉터리의 정학한 경로 확인
+	- vim file-name : vim 에디터 실행 (문서작성 완료 시 [esc] > ":wq"입력)
+	- cat file-name : 파일 내용을 화면에 출력
+	- cp directory-name/file-name directory-name/file-name : 파일 및 디렉터리 복제 
+	- cp -R directory-name/ directory-name/ : 디텍터리 통째로 복제
+	- rm file-name : 파일 삭제
+	- rmdir directory-name : 빈 디렉터리 삭제
+	- rm -rf directory-name : 비어있지 않은 디렉터리 강제로 삭제
 ```
