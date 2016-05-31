@@ -19,19 +19,21 @@
 	* **[Ruby Sass](http://sass-lang.com/)**
 	* **[Node Sass](https://github.com/sass/node-sass)**
 
---
+---
 
 ### 2. Sass 설치
 
 #### **[rubygems](https://rubygems.org/gems/sass)**
 
-	- *REQUIRED RUBY VERSION : 최소 지원되는 루비 버전
+- *REQUIRED RUBY VERSION : 최소 지원되는 루비 버전
 ```sh
 	$ gem install sass : 설치
 	$ gem list sass : 설치 확인
 	$ gem list * : gem 설치 된 모든 파일 확인
 	$ gem uninstall sass > (버전 선택) : 설치된 구버전 sass 삭제
 ```
+
+-
 
 #### Ruby Gem 설치 오류 발생시 
 
@@ -41,6 +43,8 @@
 $ gem source --add https://s3.amazonaws.com/production.s3.rubygems.org/
 $ gem source --remove https://rubygems.org/
 ```
+
+-
 
 #### Ruby Sass 
 ```sh
@@ -55,7 +59,7 @@ $ gem source --remove https://rubygems.org/
 	$ sass-convert [input] [output] : Sass와 SCSS파일 간 변환
 ```
 
---
+---
 
 ### 3. Git Bash 명령어
 
@@ -98,12 +102,13 @@ $ gem source --remove https://rubygems.org/
 	alias glog="git log"
 ```
 
-- Bach 설정 파일로 만들어 관리할 경우 
+- Bash 설정 파일로 만들어 관리할 경우 
 
 ```sh
 $ vim ~/.bashrc
 	- [I]를 누름 상태바에 INSERT 가 표시되면 alias작성
 ``` 
---
+
+---
 
 ### 4 .스니펫(Snippet)
