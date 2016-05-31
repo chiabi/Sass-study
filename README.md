@@ -18,7 +18,7 @@
 	* **[Ruby Sass](http://sass-lang.com/)**
 	* **[Node Sass](https://github.com/sass/node-sass)**
 
--
+--
 
 ### 2. Sass 설치
 
@@ -41,7 +41,7 @@ $ gem source --add https://s3.amazonaws.com/production.s3.rubygems.org/
 $ gem source --remove https://rubygems.org/
 ```
 
--
+--
 
 ### 3. Git Bash 명령어
 
@@ -64,17 +64,30 @@ $ gem source --remove https://rubygems.org/
 	- rm -rf directory-name : 비어있지 않은 디렉터리 강제로 삭제
 ```
 
-#### Git Bash 한글 깨짐 문제 / .bashrc파일과 [alias](https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-Alias)
+-
+
+#### Git Bash 한글 깨짐 문제 / .bashrc파일과 **[alias](https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-Alias)**(별칭)
 
 ```sh
-alias ls="ls -ph --show-control-chars"
-alias ls="lsa -al --show-control-chars"
+__Git Bash : 한글 깨짐 문제 (--show-control-chars)__
+	alias ls="ls -ph --show-control-chars"
+	alias ls="lsa -al --show-control-chars"
 
-alias swet="sass -w -E -utf-8 -t"
+__Sass : Windows 환경에서 한글(CP949) 오류 발생 시__
+	alias swet="sass -w -E -utf-8 -t"
 
-alias gs="git status"
-alias gc="git commit"
-alias ga="git add"
-alias gcam="git commit -a -m"
-alias glog="git log"
+__Git 관리 명령어 Alias__
+	alias gs="git status"
+	alias gc="git commit"
+	alias ga="git add"
+	alias gcam="git commit -a -m"
+	alias glog="git log"
 ```
+
+- Bach 설정 파일로 만들어 관리할 경우 
+
+```sh
+$vim ~/.bashrc
+	- [I]를 누름 상태바에 INSERT 가 표시되면 alias작성
+``` 
+--
