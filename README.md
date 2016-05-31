@@ -10,7 +10,25 @@
 	* [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 - 플랫폼 : Sass, Node
-	* **[Ruby Sass](http://sass-lang.com/)**, [Ruby Download](http://rubyinstaller.org/)
+	* **[Ruby Sass](http://sass-lang.com/)**, [Ruby Download for Windows](http://rubyinstaller.org/)
 	* **[Node Sass](https://github.com/sass/node-sass)**
 
 -----------------------------------------
+
+### 2. Sass 설치
+
+#### **[rubygems](https://rubygems.org/gems/sass)**
+```sh
+	- REQUIRED RUBY VERSION : 최소 지원되는 루비 버전
+	- 설치 : gem install sass
+	- 설치 확인 : gem list sass
+	- gem 설치 된 모든 파일 확인 : gem list *
+	- 설치된 구버전 sass 삭제 : gem uninstall sass > (버전 선택)
+```
+
+#### Ruby Gem 설치 오류 발생시 
+
+```sh
+$ gem source --add https://s3.amazonaws.com/production.s3.rubygems.org/
+$ gem source --remove https://rubygems.org/
+```
