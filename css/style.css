@@ -85,4 +85,9 @@ html { overflow-y: scroll; -webkit-font-smoothing: antialiased; text-shadow: 1px
 header { position: relative; top: 0; left: 0; height: 140px; background: #eeeeee; }
 header .inner_header { width: 1200px; margin: 0 auto; }
 
+nav ul { list-style-type: none; padding-left: 0; }
+nav ul li { float: left; width: 20%; text-align: center; }
+nav ul li a { display: block; padding: 10px 0; background: #D8ACAC; color: #483F3F; }
+nav ul li a:hover { color: #D8ACAC; background: #483F3F; }
+
 /*# sourceMappingURL=style.css.map */

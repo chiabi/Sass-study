@@ -92,7 +92,10 @@ $ gem source --remove https://rubygems.org/
 	alias ls="lsa -al --show-control-chars"
 
 *Sass : Windows 환경에서 한글(CP949) 오류 발생 시
-	alias swet="sass -w -E -utf-8 -t"
+	alias sass-n="sass -E UTF-8 -t nested --watch"
+	alias sass-n="sass -E UTF-8 -t nested --watch"
+	alias sass-c="sass -E UTF-8 -t compact --watch"
+	alias sass-p="sass -E UTF-8 -t compressed --watch"
 
 *Git 관리 명령어 Alias
 	alias gs="git status"
