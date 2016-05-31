@@ -11,10 +11,14 @@
 	* [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 - 플랫폼 : Sass, Node
-	* **[Ruby Sass](http://sass-lang.com/)**, [Ruby Download for Windows](http://rubyinstaller.org/)
+	* **[Ruby](https://www.ruby-lang.org/ko/)**, [Ruby Download for Windows](http://rubyinstaller.org/)
+	* **[Node](https://githubhttps://nodejs.org/en/)**
+
+- 플랫폼 별 Sass
+	* **[Ruby Sass](http://sass-lang.com/)**
 	* **[Node Sass](https://github.com/sass/node-sass)**
 
------------------------------------------
+-
 
 ### 2. Sass 설치
 
@@ -37,7 +41,9 @@ $ gem source --add https://s3.amazonaws.com/production.s3.rubygems.org/
 $ gem source --remove https://rubygems.org/
 ```
 
-#### Git Bash 명령어
+-
+
+### 3. Git Bash 명령어
 
 ```sh
 	- cd directory-name : 디렉토리 이동
@@ -56,4 +62,19 @@ $ gem source --remove https://rubygems.org/
 	- rm file-name : 파일 삭제
 	- rmdir directory-name : 빈 디렉터리 삭제
 	- rm -rf directory-name : 비어있지 않은 디렉터리 강제로 삭제
+```
+
+#### Git Bash 한글 깨짐 문제 / .bashrc파일과 [alias](https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-Alias)
+
+```sh
+alias ls="ls -ph --show-control-chars"
+alias ls="lsa -al --show-control-chars"
+
+alias swet="sass -w -E -utf-8 -t"
+
+alias gs="git status"
+alias gc="git commit"
+alias ga="git add"
+alias gcam="git commit -a -m"
+alias glog="git log"
 ```
