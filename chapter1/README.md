@@ -99,9 +99,8 @@ $ gem source --remove https://rubygems.org/
 
 *Git 관리 명령어 Alias
 	alias gs="git status"
-	alias gc="git commit"
+	alias gc="git commit -m"
 	alias ga="git add"
-	alias gcam="git commit -a -m"
 	alias glog="git log"
 ```
 
@@ -114,4 +113,4 @@ $ vim ~/.bashrc
 
 ---
 
-### 4 .스니펫(Snippet)
+### 4. **[스니펫(Snippet)](http://sublimetext.info/docs/en/extensibility/snippets.html)**
