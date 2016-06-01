@@ -6,7 +6,7 @@
 	* [Package Control](https://packagecontrol.io/)
 	* [Emmet](http://docs.emmet.io), [Emmet 스니펫/축약코드](http://docs.emmet.io/cheat-sheet/)
 	* SideBarEnhancements, Syntax Highlighting for Sass, Color Picker, IMESupport, ConvertToUTF8
-	* [win chear sheet(영문)](https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet)
+	* [win cheat sheet(영문)](https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet)
 
 - 버전관리 도구 : **[Git / GitHub / Git Bash](https://git-scm.com/)**
 	* [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
