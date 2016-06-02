@@ -5,7 +5,9 @@
 - [Sass Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 - [Sass Guideline](https://sass-guidelin.es/ko/)
 
-- 프로젝트 트리 구조(Project Tree Structure)
+---
+
+#### 프로젝트 트리 구조(Project Tree Structure)
 ```sh
 	*
 	|

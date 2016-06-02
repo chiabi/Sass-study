@@ -5,7 +5,10 @@
 - 에디터 : **[Sublime Text 3](https://www.sublimetext.com/3)**
 	* [Package Control](https://packagecontrol.io/)
 	* [Emmet](http://docs.emmet.io), [Emmet 스니펫/축약코드](http://docs.emmet.io/cheat-sheet/)
-	* SideBarEnhancements, Syntax Highlighting for Sass, Color Picker, IMESupport, ConvertToUTF8
+	* [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
+	* [AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile)
+	* [Color Picker](https://github.com/weslly/ColorPicker)
+	* Syntax Highlighting for Sass, IMESupport, ConvertToUTF8
 	* [win cheat sheet(영문)](https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet)
 
 - 버전관리 도구 : **[Git / GitHub / Git Bash](https://git-scm.com/)**
@@ -80,6 +83,8 @@ $ gem source --remove https://rubygems.org/
 	$ rm file-name : 파일 삭제
 	$ rmdir directory-name : 빈 디렉터리 삭제
 	$ rm -rf directory-name : 비어있지 않은 디렉터리 강제로 삭제
+	$ echo 파일 내용 > directory-name : 내용이 있는 파일 생성
+	$ echo 파일 내용 >> directory-name : 생성된 파일에 내용 추가	
 ```
 
 -
