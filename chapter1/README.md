@@ -43,10 +43,10 @@
 - *윈도에서 오류 생길 경우 gem을 끌어오는 기본주소가 안될 경우 지우고 다른 주소로 add함
 
 ```sh
-$ gem source --add https://s3.amazonaws.com/production.s3.rubygems.org/
+$ gem source --add http://rubygems.org/
 $ gem source --remove https://rubygems.org/
 ```
-
+- [Can't add sources with gem](http://stackoverflow.com/questions/36042787/how-do-i-programmatically-add-http-rubygems-org-as-a-gem-source)
 -
 
 #### Ruby Sass 

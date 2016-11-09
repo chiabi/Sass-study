@@ -1,6 +1,7 @@
 ## Sass Chapter3
 
 - Chorme V8 엔진 기반의 플랫폼 구성 : Node.js & NPM 
+- Node.js 기반 프론트-엔드 개발 작업 자동화 빌드 시스템 : Gulp.js
 
 ### 1. [Node](https://nodejs.org/ko/)
  - 자바스크립트를 서버사이드 언어로 사용할 수 있다.
@@ -17,7 +18,8 @@ $ gulp -v : 버전확인
  - 개별적인 프로젝트에 Gulp 로컬 설치 
  	: 인터넷이 지원되지 않는 상황에서 gulp 설치가 필요할 수 있기 때문
 ```
-$ npm i --save-dev gulp
+$ npm i --save-dev gulp : 개발할 때만 의존하는 모듈로 package.json이 기술됨, -D로 줄여쓸 수 있음
+('--save' 명령어 입력시 배포할 때도 의존하는 모듈로 기술됨, -S로 줄여쓸 수 있음 )
 ``` 
 
  - gulp-sass, gulp-compass(gulp-sass + compass), gulp-ruby-sass
