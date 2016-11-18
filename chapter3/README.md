@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Sass Chapter3
 
 - Chorme V8 엔진 기반의 플랫폼 구성 : Node.js & NPM 
@@ -32,10 +31,3 @@ $ npm i --save-dev gulp : 개발할 때만 의존하는 모듈로 package.json�
  	* $ gulp-compass로 실행
  	* config.js등 설정 파일에서의 변경은 gulp를 재실행해야 반영됨
  	* 작업은 src에서 build는 최종 파일
-=======
-## Sass Study 자료 
-
-- **[Sass Chapter1](../../tree/master/chapter1)** : 실습 환경설정, Sass설치, Git Bash, Snippet
-- **[Sass Chapter2](../../tree/master/chapter2)** : Sass 가이드 라인
-- **[Sass Chapter3](../../tree/master/chapter3)** : Node, Gulp
->>>>>>> a2ca45b4ae2fee6db38c7baf1db6504ecf5881d2
