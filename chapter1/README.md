@@ -46,7 +46,7 @@
 $ gem source --add http://rubygems.org/
 $ gem source --remove https://rubygems.org/
 ```
-<<<<<<< HEAD
+
 - [Can't add sources with gem 오류](http://stackoverflow.com/questions/36042787/how-do-i-programmatically-add-http-rubygems-org-as-a-gem-source)
 
 #### Ruby Sass 
